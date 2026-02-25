@@ -9,6 +9,11 @@ class DMART:
     @classmethod
     def revised_discount(cls,new_discount):
         cls.discount_on_each_product=new_discount
+    @staticmethod
+    def frisktheCustomer():
+        print("Cutermer are checked and validated")
+print("**********Calling Static Mathod**********")
+DMART.frisktheCustomer()
 print("**********PRICE WITH DEFAULT DISCOUNT***********")
 d1=DMART()
 d1.gstn=12345567
