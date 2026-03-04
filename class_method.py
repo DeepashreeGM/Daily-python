@@ -3,13 +3,13 @@ class DMART:
     def __init__(self):
         self.gstn=None
         self.location=None
-    def calculatediscount(self,product_name,org_productprice):
+    def calculatediscount(self,product_name,org_productprice):#Instance Method
         actual_price=org_productprice-(org_productprice* DMART.discount_on_each_product)
         print("Actual Price of", product_name, "after discount ---->", actual_price)
-    @classmethod
+    @classmethod #classMethod
     def revised_discount(cls,new_discount):
         cls.discount_on_each_product=new_discount
-    @staticmethod
+    @staticmethod # staticMethod
     def frisktheCustomer():
         print("Cutermer are checked and validated")
 print("**********Calling Static Mathod**********")
