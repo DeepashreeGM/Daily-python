@@ -29,10 +29,10 @@ while True:
     print("3. Total Student Count")
     print("4. Exit")
 
-    choice = int(input("Enter your choice: "))   # Local variable
+    choice = int(input("Enter your choice: "))  
 
     if choice == 1:
-        name = input("Enter name: ")      # Local variable
+        name = input("Enter name: ")     
         roll = int(input("Enter roll no: "))
         marks = int(input("Enter marks: "))
 
